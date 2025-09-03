@@ -28,6 +28,6 @@
   },
   "type": "module",
   "dependencies": {
-    "davjhan-core": "file:~/dev/davjhan-games/davjhan-core"
+    "davjhan-core": "file:.yalc/davjhan-core"
   }
 }

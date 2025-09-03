@@ -23,7 +23,7 @@
 
     <span class='font-semibold mb-2'>Instructions</span>
     <p class='ml-4'>
-        Guess the year that the famous event happened. Answers range between 1900-2021.
+        Guess the year that the famous event happened. Answers range between -700 -> 2021.
     </p>
 
     <span class='font-semibold mt-8 mb-2 '>Playing Time</span>

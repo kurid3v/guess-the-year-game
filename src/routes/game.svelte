@@ -30,7 +30,7 @@
 	})
 
 	function correctGuess() {
-		guess = Math.max(Math.min(2021, guess), 1900)
+		guess = Math.max(Math.min(2021, guess), -700)
 	}
 
 	function next() {
@@ -137,7 +137,7 @@
 
     <div class="flex flex-col my-4 self-stretch h-24 justify-center">
         {#if state === 'guess'}
-            <YearDragger bind:guess min={1900} max={2021}/>
+            <YearDragger bind:guess min={-700} max={2021}/>
         {:else}
             <div class="flex flex-col items-center">
                 <span class='font-semibold text-xl' in:fly={{delay:1500}}>Margin of error:

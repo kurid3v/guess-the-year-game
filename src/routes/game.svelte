@@ -14,7 +14,7 @@
 	const initialState = {
 		state: 'guess',
 		round: 0,
-		lives: 100,
+		lives: 300,
 		questions: shuffle(allQuestions)
 	}
 	let { round, lives, questions, state } = initialState
